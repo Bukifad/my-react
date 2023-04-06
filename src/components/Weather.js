@@ -2,6 +2,7 @@ import React from "react";
 import Overview from "./Overview";
 import Form from "./Form";
 import Cast from "./Cast";
+import Footer from "./Footer";
 
 const weather = () => {
   return (
@@ -13,6 +14,7 @@ const weather = () => {
           <Cast />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
